@@ -52,15 +52,6 @@
         </a>
     <% } %>
 
-    <!-- Share Google+ -->
-    <% if(theme.sns_share.googleplus === true) { %>
-        <a class="post_share-link" href="https://plus.google.com/share?url=<%= config.url + url_for(path) %>" target="_blank">
-            <li class="mdl-menu__item">
-                <%= __('share.toGplus') %>
-            </li>
-        </a>
-    <% } %>
-
     <!-- Share LinkedIn -->
     <% if(theme.sns_share.linkedin === true) { %>
         <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=<%- config.url + url_for(path) %>&title=<%= page.title %>" target="_blank">

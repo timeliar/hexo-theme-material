@@ -33,7 +33,7 @@ scheme: Paradox
 
 # UI & UX: slogan, color, effect
 uiux:
-    slogan: "Hi, nice to meet you"
+    slogan: "Hello"
     theme_color: "#0097A7"
     theme_sub_color: "#00838F"
     hyperlink_color: "#00838F"
@@ -167,9 +167,9 @@ toc:
 
 # SNS Menu
 sns:
-    email: youremail@email.com
-    facebook: "https://www.facebook.com/facebook"
-    twitter: "https://twitter.com/twitter"
+    email: timeliar.lee@gmail.com
+    facebook:
+    twitter:
     weibo:
     instagram:
     tumblr:
@@ -183,9 +183,9 @@ sns:
 
 # SNS Share Switch
 sns_share:
-    twitter: true
-    facebook: true
-    weibo: true
+    twitter: false
+    facebook: false
+    weibo: false
     linkedin: false
     qq: false
     telegram: false
@@ -194,7 +194,7 @@ sns_share:
 sidebar:
     dropdown:
         Email Me:
-            link: "#"
+            link: "mailto:timeliar.lee@gmail.com"
             icon: email
     homepage:
         use: true

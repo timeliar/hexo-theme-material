@@ -83,14 +83,6 @@
                 </a>
             <% } %>
 
-            <% if(theme.sns_share.googleplus === true) { %>
-                <a class="index_share-link" href="https://plus.google.com/share?url=<%- config.url %>" target="_blank">
-                    <li class="mdl-menu__item mdl-js-ripple-effect">
-                        <%= __('share.toGplus') %>
-                    </li>
-                </a>
-            <% } %>
-
             <% if(theme.sns_share.linkedin === true) { %>
                 <a class="index_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=<%- config.url %>&title=<%= config.title %>" target="_blank">
                     <li class="mdl-menu__item mdl-js-ripple-effect">
